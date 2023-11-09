@@ -13,6 +13,9 @@ Are you tired of the hassle of transferring hefty MySQL databases between server
 7. And modify the absolute url to the export.php file.
 8. Open the import.php file in a browser and see the magic happens. The import.php file will connect to the export.php file and create a copy of the database in the new server.
 
+**Important Note**
+This import.php script will connect to export.php file to read data and will write the same in the new server. To do this operation, it breaks down the whole operation in multiple steps and also retrieves data into small pieces. This ensures smooth migration, but may take enough time depending upon the database size.
+
 **Key Features:**
 
 **Effortless Transfer:** 
