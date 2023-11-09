@@ -7,11 +7,13 @@ Are you tired of the hassle of transferring hefty MySQL databases between server
 1. Download export.php and upload to the file to the old server from where you want to export the database.
 2. Modify the database connection settings in export.php file, i.e., host, username, password and database.
 3. Create a new database in the new server and get database credentials.
-4. Download import.php and upload the file to the new server where you want the database to be imported.
-5. Modify the database connection settings in import.php file, i.e., host, username, password and database.
-6. Also modify the absolute url to the import.php file.
-7. And modify the absolute url to the export.php file.
-8. Open the import.php file in a browser and see the magic happens. The import.php file will connect to the export.php file and create a copy of the database in the new server.
+4. The export.php must be accessible by a valid domain or subdomain url, e.g., https://old-domain.com/database/export.php
+5. Download import.php and upload the file to the new server where you want the database to be imported.
+6. Modify the database connection settings in import.php file, i.e., host, username, password and database.
+7. The import.php file must be accessible by another valid domain or subdomain url, e.g., https://new-domain-url/database/import.php
+8. And modify the $import_url variable in import.php file.
+9. Also modify the $export_url variable in the import.php file.
+10. Open the import.php file in a browser and see the magic happens. The import.php file will connect to the export.php file and create a copy of the database in the new server.
 
 **Important Note**
 This import.php script will connect to export.php file to read data and will write the same in the new server. To do this operation, it breaks down the whole operation in multiple steps and also retrieves data into small pieces. This ensures smooth migration, but may take enough time depending upon the database size.
