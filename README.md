@@ -3,7 +3,7 @@ Easiest way to export and import large MySQL database from one server to another
 
 Are you tired of the hassle of transferring hefty MySQL databases between servers? Look no further! Introducing "Large MySQL Database Export and Import," a user-friendly project designed to simplify the migration process. This tool is versatile, functioning seamlessly on shared, dedicated, or cloud servers, and compatible with any PHP version.
 
-**How to Use?:**
+**How to Use?**
 1. Download export.php and upload to the file to the old server from where you want to export the database.
 2. Modify the database connection settings in export.php file, i.e., host, username, password and database.
 3. Create a new database in the new server and get database credentials.
