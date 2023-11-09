@@ -1,4 +1,4 @@
-# Large-Mysql-Database-Export-and-Import
+# Large Mysql Database Export and Import
 Easiest way to export and import large MySQL database from one server to another server.
 
 Are you tired of the hassle of transferring hefty MySQL databases between servers? Look no further! Introducing "Large MySQL Database Export and Import," a user-friendly project designed to simplify the migration process. This tool is versatile, functioning seamlessly on shared, dedicated, or cloud servers, and compatible with any PHP version.
@@ -28,9 +28,12 @@ No need to worry about PHP versions. Our project is engineered to work seamlessl
 This incredible project is brought to you by Somnath Ghosh, also known as SomLance, that's me. With a passion for creating solutions that simplify my and other developer's (freelancer's) life, I am dedicated to delivering high-quality tools for a seamless user experience.
 
 **Contact me:**
-WhatsApp: +91 7003687879
-Email: hi@somlance.com
-Support the Developer:
+Want to know more about me and my works? Just reach me in any of the following contact channels and I will be happy to response.
+WhatsApp: +91 7003687879,
+Email: hi@somlance.com,
+Website: https://somlance.com
+
+**Support the Developer:**
 If you find this project valuable, consider supporting me by buying a cup of coffee. Your contribution will fuel my creativity and enable the development of more innovative projects.
 
 **Buy a Coffee for Somnath Ghosh:**
